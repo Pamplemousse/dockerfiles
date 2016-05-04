@@ -1,5 +1,8 @@
 FROM ruby:alpine
 
-RUN gem install pry colorize awesome_print
+RUN gem install \
+      awesome_print \
+      colorize \
+      pry
 
 CMD ["pry"]
