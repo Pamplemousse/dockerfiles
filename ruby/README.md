@@ -1,6 +1,6 @@
 # docker-ruby
 
-Generic ruby runtime for personnal use.
+Generic ruby runtime and tools for personnal use.
 
 ## usage
 
@@ -17,3 +17,4 @@ docker run --rm -v $(pwd):/app -w /app pamplemousse/ruby ruby <script.rb>
   * pry
   * colorize
   * awesome_print
+  * rubocop
