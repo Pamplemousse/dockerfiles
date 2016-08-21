@@ -7,4 +7,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 RUN echo "*/15 *  * * *  root  curl -s http://localhost/update\n" >> /etc/crontab
 
 COPY entrypoint.sh /
-ENTRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["cron && apache2-foreground"]
