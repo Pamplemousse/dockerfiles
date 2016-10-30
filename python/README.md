@@ -15,3 +15,4 @@ docker run --rm -v $(pwd):/app -w /app pamplemousse/python python <script.py>
 ## python modules included
 
   * [http-prompt](https://github.com/eliangcs/http-prompt)
+  * [yamllint](https://github.com/adrienverge/yamllint)
