@@ -5,3 +5,7 @@ RUN npm install -g \
       js-yaml \
       nsp \
       standard
+
+RUN mkdir /entrypoint
+COPY entrypoint.sh /entrypoint/entrypoint.sh
+ENTRYPOINT ["/entrypoint/entrypoint.sh"]
