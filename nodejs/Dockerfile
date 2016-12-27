@@ -1,4 +1,4 @@
-FROM node:4.6
+FROM node:7
 
 RUN npm install -g \
       http-server \
@@ -6,6 +6,4 @@ RUN npm install -g \
       nsp \
       standard
 
-RUN mkdir /entrypoint
-COPY entrypoint.sh /entrypoint/entrypoint.sh
-ENTRYPOINT ["/entrypoint/entrypoint.sh"]
+USER node
