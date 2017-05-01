@@ -28,6 +28,7 @@ docker run \
 ## packages included
 
   * http-server
+  * json-server
   * js-yaml
   * nsp
   * standard

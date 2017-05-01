@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install yarn
 
 RUN npm install -g \
       http-server \
+      json-server \
       js-yaml \
       nsp \
       standard
