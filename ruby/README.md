@@ -18,3 +18,5 @@ docker run --rm -v $(pwd):/app -w /app pamplemousse/ruby ruby <script.rb>
   * colorize
   * awesome_print
   * rubocop
+  * nokogiri
+  * mechanize
