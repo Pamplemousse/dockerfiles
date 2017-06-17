@@ -10,9 +10,9 @@ Burp web security tool in a container.
 docker run \
   --name burp \
   --rm -it \
-  -e DISPLAY=:1 \
-  -e XAUTHORITY=/run/user/1000/gdm/Xauthority \
-  -v /run/user/1000/gdm/Xauthority:/run/user/1000/gdm/Xauthority \
+  -e DISPLAY=$DISPLAY \
+  -e XAUTHORITY=$XAUTHORITY \
+  -v /run/user/1000/gdm/Xauthority:$XAUTHORITY \
   -v /tmp/.X11-unix:/tmp/.X11-unix:ro \
   --net host \
   -p 8080:8080 \
