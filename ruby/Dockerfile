@@ -6,7 +6,8 @@ RUN gem install \
       pry pry-byebug \
       nokogiri \
       mechanize \
-      rubocop
+      rubocop \
+      travis
 
 RUN useradd -m -u 1000 ruby
 WORKDIR /home/ruby
