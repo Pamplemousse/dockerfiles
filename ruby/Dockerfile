@@ -8,6 +8,8 @@ RUN gem install \
       mechanize \
       rubocop
 
-USER 1000:1000
+RUN useradd -m -u 1000 ruby
+WORKDIR /home/ruby
+USER ruby
 
 CMD ["pry"]
