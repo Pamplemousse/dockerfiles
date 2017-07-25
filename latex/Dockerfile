@@ -8,3 +8,5 @@ RUN apt-get install -y \
     texlive-lang-french latexmk
 
 RUN apt-get install -y uuid-runtime
+
+USER 1000:1000
