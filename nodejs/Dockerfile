@@ -1,4 +1,4 @@
-FROM node:7
+FROM node:6
 
 # TODO: remove once https://github.com/docker-library/buildpack-deps/issues/55 is resolved
 RUN apt-get update && apt-get install apt-transport-https
