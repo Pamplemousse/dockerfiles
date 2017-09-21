@@ -8,6 +8,7 @@ RUN npm install -g \
       js-yaml \
       nsp \
       standard \
-      doctoc
+      doctoc \
+      elm@0.18
 
 USER node

@@ -32,3 +32,4 @@ docker run \
   * js-yaml
   * nsp
   * standard
+  * elm
