@@ -7,6 +7,7 @@ RUN npm install -g \
       json-server \
       js-yaml \
       nsp \
+      nsp-preprocessor-yarn \
       standard \
       doctoc
 
