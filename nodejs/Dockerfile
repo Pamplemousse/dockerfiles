@@ -1,8 +1,8 @@
-FROM node:6
+FROM node:9
 
 RUN apt-get update && apt-get install apt-transport-https
 
-RUN npm install -g \
+RUN yarn global add \
       http-server \
       json-server \
       js-yaml \
