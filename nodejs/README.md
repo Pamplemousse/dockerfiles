@@ -27,8 +27,10 @@ docker run \
 
 ## packages included
 
+  * elm
   * http-server
   * json-server
   * js-yaml
   * nsp
   * standard
+  * doctoc
