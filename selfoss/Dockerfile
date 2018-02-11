@@ -6,4 +6,4 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 RUN echo "*/15 *  * * *  root  curl -s http://localhost/update\n" >> /etc/crontab
 
-ENTRYPOINT ["cron && apache2-foreground"]
+ENTRYPOINT /bin/bash -c "cron && apache2-foreground"
