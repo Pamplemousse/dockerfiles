@@ -6,4 +6,5 @@ RUN pip install --upgrade pip
 RUN pip install \
       grip \
       http-prompt \
+      plotly \
       yamllint
