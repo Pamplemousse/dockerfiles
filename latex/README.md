@@ -6,4 +6,5 @@ Dockerfile describing an image to run latex tools.
 
 ```
 docker run --rm -v $(pwd):/app -w /app pamplemousse/latex pdflatex main.tex
+docker run --rm -v $(pwd):/app -w /app pamplemousse/latex bibtex main
 ```
