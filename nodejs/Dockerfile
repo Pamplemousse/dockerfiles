@@ -9,7 +9,9 @@ RUN yarn global add \
       js-yaml \
       nsp \
       nsp-preprocessor-yarn \
+      prettier \
       standard \
-      doctoc
+      doctoc \
+      livedown
 
 USER node
