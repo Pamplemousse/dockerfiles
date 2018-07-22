@@ -3,9 +3,9 @@ FROM ruby
 RUN gem install \
       awesome_print \
       colorize \
-      pry pry-byebug \
-      nokogiri \
       mechanize \
+      nokogiri \
+      pry pry-byebug \
       rubocop \
       travis
 
