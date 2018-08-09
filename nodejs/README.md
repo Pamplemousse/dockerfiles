@@ -14,6 +14,7 @@ docker run --rm -v $(pwd):/app -w /app pamplemousse/node node <script.js>
 
   * elm
   * http-server
+  * jsdoc
   * json-server
   * js-yaml
   * nsp

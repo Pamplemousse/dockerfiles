@@ -6,6 +6,7 @@ RUN yarn global add \
       doctoc \
       elm@0.18 \
       http-server \
+      jsdoc \
       json-server \
       js-yaml \
       livedown \
