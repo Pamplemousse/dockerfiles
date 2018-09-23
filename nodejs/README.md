@@ -13,6 +13,7 @@ docker run --rm -v $(pwd):/app -w /app pamplemousse/node node <script.js>
 ## packages included
 
   * elm
+  * heroku
   * http-server
   * jsdoc
   * json-server
