@@ -11,7 +11,6 @@ RUN yarn global add \
       json-server \
       js-yaml \
       livedown \
-      nsp nsp-preprocessor-yarn \
       prettier \
       standard
 

@@ -18,7 +18,6 @@ docker run --rm -v $(pwd):/app -w /app pamplemousse/node node <script.js>
   * jsdoc
   * json-server
   * js-yaml
-  * nsp
   * prettier
   * standard
   * doctoc
