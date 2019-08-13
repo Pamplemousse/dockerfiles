@@ -3,7 +3,7 @@ FROM debian:stable-slim
 RUN apt-get update
 
 RUN apt-get install -y \
-    texlive-latex-base texlive-math-extra \
+    texlive-latex-base texlive-science \
     texlive-latex-extra texlive-fonts-extra \
     texlive-lang-french texlive-bibtex-extra \
     latexmk
