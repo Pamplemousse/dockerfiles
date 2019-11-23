@@ -2,9 +2,7 @@
 
 Containerized version of selfoss.
 
-Based and enhanced Docker image of [JensErat](https://github.com/JensErat/docker-selfoss)'s. Main changes :
- - [x] `cron` update integrated into the container
- - [x] `apt` lists removed for lighter Docker image
+Inspired from the original work of [JensErat](https://github.com/JensErat/docker-selfoss).
 
 ## usage
 
