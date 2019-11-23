@@ -6,7 +6,7 @@ RUN for i in `find / -perm 6000 -type f 2>/dev/null`; do chmod a-s $i; done
 # selfoss requirements: mod-headers, mod-rewrite, gd
 RUN a2enmod headers rewrite && \
     apt-get update && \
-    apt-get install -y unzip libjpeg62-turbo-dev libpng12-dev libpq-dev && \
+    apt-get install -y unzip libjpeg62-turbo-dev libpng-dev libpq-dev && \
     docker-php-ext-configure gd --with-jpeg-dir=/usr/include/ && \
     docker-php-ext-install gd mbstring pdo_pgsql pdo_mysql
 
