@@ -19,7 +19,7 @@ RUN a2enmod headers rewrite \
  && docker-php-ext-configure gd --with-jpeg-dir=/usr/include/ \
  && docker-php-ext-install gd mbstring pdo_pgsql pdo_mysql
 
-ADD https://github.com/SSilence/selfoss/releases/download/2.17/selfoss-2.17.zip /tmp/
+ADD https://github.com/SSilence/selfoss/releases/download/2.18/selfoss-2.18.zip /tmp/
 RUN unzip /tmp/selfoss-*.zip -d /var/www/html && \
     rm /tmp/selfoss-*.zip && \
     ln -s /var/www/html/data/config.ini /var/www/html && \
