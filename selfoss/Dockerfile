@@ -9,7 +9,7 @@ ENV DEBIAN_FRONTEND noninteractive
 # selfoss requirements: mod-headers, mod-rewrite, gd
 RUN a2enmod headers rewrite && \
     apt-get update && \
-    apt-get install -y unzip libjpeg62-turbo-dev libpng-dev libpq-dev && \
+    apt-get install -y --no-install-recommends unzip libjpeg62-turbo-dev libpng-dev libpq-dev && \
     docker-php-ext-configure gd --with-jpeg-dir=/usr/include/ && \
     docker-php-ext-install gd mbstring pdo_pgsql pdo_mysql
 
