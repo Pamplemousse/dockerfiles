@@ -14,3 +14,5 @@ RUN apk update && apk add --no-cache \
     lsof \
     ltrace \
     strace
+
+ENTRYPOINT /bin/bash

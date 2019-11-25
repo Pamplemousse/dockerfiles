@@ -10,3 +10,5 @@ docker run --rm -it \
   --net=container:$container \
   pamplemousse/debug
 ```
+
+The first command you may want to do is : `cd /proc/1/root`, which will bring you in the file system of the debuggee.
