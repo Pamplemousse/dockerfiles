@@ -2,7 +2,7 @@
 
 Containerized version of selfoss.
 
-Enhancing [JensErat](https://github.com/JensErat/docker-selfoss)'s by running the cron inside the container.
+Inspired from the original work of [JensErat](https://github.com/JensErat/docker-selfoss).
 
 ## usage
 
