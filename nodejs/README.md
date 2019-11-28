@@ -1,6 +1,6 @@
 # docker-node
 
-Generic node runtime and tools for personnal use.
+Generic node runtime and tools for personal use.
 
 ## usage
 

@@ -1,10 +1,10 @@
-FROM node:9
+FROM node:10
 
-RUN apt-get update && apt-get install apt-transport-https
+RUN apt-get update && apt-get install apt-transport-https -y
 
 RUN yarn global add \
       doctoc \
-      elm@0.18 \
+      elm@0.19.0 \
       heroku \
       http-server \
       jsdoc \
@@ -15,3 +15,5 @@ RUN yarn global add \
       standard
 
 USER node
+
+RUN rm -rf ~/.elm
