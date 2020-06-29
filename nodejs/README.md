@@ -6,7 +6,7 @@ Generic node runtime and tools for personal use.
 
 ```bash
 # run a single script
-docker run --rm -v $(pwd):/app -w /app pamplemousse/node node <script.js>
+docker run --rm -v $(pwd):/app -w /app pamplemousse/nodejs node <script.js>
 ```
 
 
