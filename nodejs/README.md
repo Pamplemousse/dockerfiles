@@ -22,3 +22,4 @@ docker run --rm -v $(pwd):/app -w /app pamplemousse/nodejs node <script.js>
   * standard
   * doctoc
   * livedown
+  * markdown-pdf

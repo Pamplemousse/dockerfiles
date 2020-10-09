@@ -11,6 +11,7 @@ RUN yarn global add \
       json-server \
       js-yaml \
       livedown \
+      markdown-pdf \
       prettier \
       standard
 
