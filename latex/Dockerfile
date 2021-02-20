@@ -3,6 +3,7 @@ FROM debian:stable-slim
 RUN apt-get update
 
 RUN apt-get install -y \
+    make \
     python3-pygments \
     texlive-latex-base texlive-science \
     texlive-latex-extra texlive-fonts-extra \
