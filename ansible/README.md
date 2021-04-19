@@ -10,11 +10,8 @@ I wanted to be able to run several version of Ansible without having to maintain
 ## usage
 
 ```bash
-# get the ansible code
-# checkout the branch you want to use
-git clone git://github.com/ansible/ansible.git --recursive ~/tools/ansible
-git checkout devel
-git submodule update --init --recursive
+# get the ansible code on the branch you want to use
+git clone git://github.com/ansible/ansible.git --depth 1 --branch <VERSION> --recursive
 
 ansible_path="${HOME}/tools/ansible"
 
