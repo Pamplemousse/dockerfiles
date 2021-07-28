@@ -45,3 +45,14 @@ docker run \
   pamplemousse/ansible \
   ansible-galaxy
 ```
+
+### use host's SSH agent in the container
+
+Add these extra parameters to the `docker run ...` command to use:
+
+```bash
+--volume "$SSH_AUTH_SOCK:/ssh-agent \
+--env SSH_AUTH_SOCK=/ssh-agent" \
+--volume "${HOME}/.ssh/config:/home/ansible/.ssh/config:ro" \
+--volume "${HOME}/.ssh/known_hosts:/home/ansible/.ssh/known_hosts:ro"
+```
